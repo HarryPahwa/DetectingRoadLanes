@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 ---
 ### Running the program
 
-Run the P1.ipynb 
+Run the P1.ipynb file as Jupyter Notebook
 ### Reflection
 
 ###1. Describing the pipeline
