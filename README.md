@@ -16,6 +16,8 @@ The goals / steps of this project are the following:
 [image5]: ./tested_images/solidYellowCurve2.jpg "Result 4"
 [image6]: ./tested_images/solidYellowLeft.jpg "Result 5"
 [image7]: ./tested_images/whiteCarLaneSwitch.jpg "Result 6"
+[image8]: ./initial_results/solidWhiteRight.jpg "Inital results"
+
 
 ---
 ### Running the program
@@ -26,6 +28,8 @@ Run the P1.ipynb
 ###1. Describing the pipeline
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, applied a Gaussian blur to the image, and then used Canny edge detection on the image. I then defined a region of interest using defined vertices, and used Hough transform on the image. 
+Initial Result:
+![alt text][image8]
 
 I attempted to normalize the image before converting it to grayscale but it didn't work as expected. Following is what it looked like: 
 ![alt text][image1]
@@ -51,6 +55,6 @@ Another shortcoming could be surrounding lighting effects. This can be observed 
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to use the previous slope values for the lines and use those while predicting the future pipeline. This would prevent erratic jumping of the pipeline.
 
-Another potential improvement could be to ...
+Another potential improvement could be to account for shadows and lightning changes through normalizing the image.
