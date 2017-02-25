@@ -39,13 +39,14 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ![alt text][image6]
 ![alt text][image7]
 
+The video results are stored as white.mp4, yellow.mp4, and extra.mp4
 
 ###2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the lines are perpendicular, the slope would become infinite. I have a try/except case to combat that. 
 
-Another shortcoming could be ...
+Another shortcoming could be surrounding lighting effects. This can be observed in the challenge video when the pipeline disappears from view. I tried combating this by normalizing the image first but wasn't able to execute it properly due to time. I will try revisiting this again afterwards.
 
 
 ###3. Suggest possible improvements to your pipeline
