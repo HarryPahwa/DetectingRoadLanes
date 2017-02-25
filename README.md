@@ -27,7 +27,7 @@ Run the P1.ipynb
 
 ###1. Describing the pipeline
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, applied a Gaussian blur to the image, and then used Canny edge detection on the image. I then defined a region of interest using defined vertices, and used Hough transform on the image. 
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, applied a Gaussian blur to the image, and then used Canny edge detection on the image. I then defined a region of interest using given vertices, and used Hough transform on the image. 
 Initial Result:
 ![alt text][image8]
 
